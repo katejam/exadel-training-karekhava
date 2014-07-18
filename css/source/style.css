@@ -8,6 +8,7 @@ ul{list-style: none;}
 .first-page ul li span{display: inline-block;width: 1em;height: 1em; background: url("../../images/layout/green-icon.png") ;margin-left: 1.5em;}
 
 #secondPage {display:none;}
+h2 span{font-size: 80%; float: right; margin-right: 40%;color: dodgerblue}
 
 
 
