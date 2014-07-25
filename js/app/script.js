@@ -1,20 +1,31 @@
-localStorage.clear();
+//localStorage.clear();
 
 readUrl();
+// showQuestion
 
 function readUrl(){
     var url = window.location.hash;
     var steps = url.split('/');
     console.log('url '+steps);
-
     steps[0] = steps[0].substring(1,2);
     console.log('url '+steps);
-
-    topicNumber = steps[0];
-    questionNumber = steps[1];
-
+    //topicNumber = steps[0];
+    //questionNumber = steps[1];
     return steps;
 }
+
+
+
+function Application(){
+
+}
+
+
+
+
+
+
+
 
 window.onload = function () {
 
@@ -105,7 +116,7 @@ window.onload = function () {
                 showFirstPage();
                 resetValues();
                 localStorage.clear();
-                debugger;
+                //debugger;
             });
         }
 
@@ -142,7 +153,7 @@ window.onload = function () {
 
             function showSendButton() {
                 var sendButton = document.createElement('a');
-                sendButton.setAttribute("href", "#");
+                sendButton.setAttribute("href", "javascript:void;");
                 sendButton.setAttribute("id", "sendButton");
                 sendButton.innerHTML = 'ответить';
 
@@ -160,7 +171,7 @@ window.onload = function () {
 
             function showSkipButton() {
                 var skipButton = document.createElement('a');
-                skipButton.setAttribute("href", "#");
+                skipButton.setAttribute("href", "javascript:void;");
                 skipButton.setAttribute("id", "skipButton");
                 skipButton.innerHTML = 'пропустить';
                 skipButton.addEventListener('click', function () {
@@ -208,13 +219,18 @@ window.onload = function () {
                 if (questionNumber < questionsNumber) {
                     if (!quizzData[topicNumber].questions[questionNumber].answered) {
                         showQuestion(questionNumber);
+                        setUrl(+topicNumber+1, questionNumber+1);
+                        //debugger;
                     } else {
                         questionNumber++;
                         goToNextQuestion();
+                        //setUrl(+topicNumber, questionNumber);
                     }
                 } else {
                     questionNumber = 0;
                     goToNextQuestion();
+                    //setUrl(+topicNumber, questionNumber);
+
                 }
 
             } else {
@@ -231,7 +247,7 @@ window.onload = function () {
     }
     function setUrl(topicNumber, questionNumber){
         window.location.hash = topicNumber + '/' + questionNumber;
-
+        console.log('url '+ topicNumber + ' '+questionNumber);
     }
 
 

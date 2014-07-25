@@ -5,7 +5,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/less.js" afterPath="$PROJECT_DIR$/less.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app/script.js" afterPath="$PROJECT_DIR$/js/app/script.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/source/style.css" afterPath="$PROJECT_DIR$/css/source/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="exadel-training-karekhava.iws" />
@@ -32,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="697">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="697">
+              <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
               <folding />
             </state>
           </provider>
@@ -52,12 +51,12 @@
       <file leaf-file-name="script.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/app/script.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29685682" vertical-offset="51" max-vertical-offset="2907">
-              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.23748545" vertical-offset="0" max-vertical-offset="2958">
+              <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
               <folding>
-                <element signature="e#3540#4490#0" expanded="false" />
-                <element signature="e#4523#7234#0" expanded="false" />
-                <element signature="e#7272#8013#0" expanded="false" />
+                <element signature="e#2001#3565#0" expanded="false" />
+                <element signature="e#3598#4548#0" expanded="false" />
+                <element signature="e#4581#7322#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -98,15 +97,15 @@
       <list>
         <option value="$PROJECT_DIR$/css/source/style-less.less" />
         <option value="$PROJECT_DIR$/js/app/quizzData.js" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/source/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app/script.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="818" />
-    <option name="width" value="967" />
+    <option name="x" value="966" />
+    <option name="width" value="882" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -345,18 +344,23 @@
       <created>1405694622116</created>
       <updated>1405694622116</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="555555">
+      <created>1406210380674</created>
+      <updated>1406210380674</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="818" y="0" width="967" height="1080" extended-state="0" />
+    <frame x="966" y="0" width="882" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29892474" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3289941" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -366,7 +370,6 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32921812" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -390,7 +393,8 @@
     <MESSAGE value="mmmmmm" />
     <MESSAGE value="mmmmmmaauu" />
     <MESSAGE value="12321323" />
-    <option name="LAST_COMMIT_MESSAGE" value="12321323" />
+    <MESSAGE value="555555" />
+    <option name="LAST_COMMIT_MESSAGE" value="555555" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -419,9 +423,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="233" max-vertical-offset="1105">
           <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
           <folding>
-            <element signature="e#3540#4490#0" expanded="false" />
-            <element signature="e#4523#7234#0" expanded="false" />
-            <element signature="e#7272#8013#0" expanded="false" />
+            <element signature="e#2001#3565#0" expanded="false" />
+            <element signature="e#3598#4548#0" expanded="false" />
+            <element signature="e#4581#7322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -463,9 +467,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="1258">
           <caret line="1419" column="31" selection-start-line="1419" selection-start-column="31" selection-end-line="1419" selection-end-column="31" />
           <folding>
-            <element signature="e#3540#4490#0" expanded="false" />
-            <element signature="e#4523#7234#0" expanded="false" />
-            <element signature="e#7272#8013#0" expanded="false" />
+            <element signature="e#2001#3565#0" expanded="false" />
+            <element signature="e#3598#4548#0" expanded="false" />
+            <element signature="e#4581#7322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -499,9 +503,9 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="340">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding>
-            <element signature="e#3540#4490#0" expanded="false" />
-            <element signature="e#4523#7234#0" expanded="false" />
-            <element signature="e#7272#8013#0" expanded="false" />
+            <element signature="e#2001#3565#0" expanded="false" />
+            <element signature="e#3598#4548#0" expanded="false" />
+            <element signature="e#4581#7322#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -563,20 +567,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.6666665" vertical-offset="0" max-vertical-offset="697">
-          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+        <state vertical-scroll-proportion="-3.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="9" column="70" selection-start-line="9" selection-start-column="70" selection-end-line="9" selection-end-column="70" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29685682" vertical-offset="51" max-vertical-offset="2907">
-          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.23748545" vertical-offset="0" max-vertical-offset="2958">
+          <caret line="12" column="24" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
           <folding>
-            <element signature="e#3540#4490#0" expanded="false" />
-            <element signature="e#4523#7234#0" expanded="false" />
-            <element signature="e#7272#8013#0" expanded="false" />
+            <element signature="e#2001#3565#0" expanded="false" />
+            <element signature="e#3598#4548#0" expanded="false" />
+            <element signature="e#4581#7322#0" expanded="false" />
           </folding>
         </state>
       </provider>
