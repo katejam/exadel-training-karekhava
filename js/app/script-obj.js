@@ -16,8 +16,36 @@ function readUrl(){
 
 
 
+/*function Application(){
+
+}
+
+function Statistics(){
+    var questionNumber = 0;
+    var questionsNumber = 0;
+    var answeredQuestionsNumber = 0;
+    var rightAnswersNumber = 0;
+    this.getQuestionNumber = function(){
+        return questionNumber;
+    };
+    this.getQuestionsNumber = function(){
+        return questionsNumber;
+    };
+    this.getAnsweredQuestionsNumber = function(){
+        return answeredQuestionsNumber;
+    };
+    this.getRightAnswersNumber = function(){
+        return rightAnswersNumber;
+    };
+
+    
+}
+
+var statistic = new Statistics();
+//console.log('statistic.getQuestionNumber '+statistic.getQuestionNumber());
 
 
+ */
 
 
 
@@ -35,10 +63,10 @@ window.onload = function () {
         question.setAttribute('number', i);
     }
 
-    var questionNumber,
+/*    var questionNumber,
         questionsNumber,
         answeredQuestionsNumber = 0,
-        rightAnswersNumber = 0;
+        rightAnswersNumber = 0;*/
 
     if(localStorage.length){
         showSecondPage();
@@ -64,13 +92,13 @@ window.onload = function () {
 
         localStorage.testNumber = testNumber;
 
-        showQuestion(testNumber, questionNumber);
+        showQuestion(questionNumber);
 
         setUrl(+testNumber+1, questionNumber+1);
 
     });
 
-    function showQuestion(testNumber, questionNumber) {
+    function showQuestion(questionNumber) {
         console.log('localStorage.questionNumber = '+localStorage.questionNumber);
 
         showQuestionText();
@@ -241,7 +269,7 @@ window.onload = function () {
     }
     function setUrl(testNumber, questionNumber){
         window.location.hash = testNumber + '/' + questionNumber;
-        console.log('url '+ testNumber + ' '+questionNumber);
+        console.log('url ' + testNumber + ' ' + questionNumber);
     }
 
 
