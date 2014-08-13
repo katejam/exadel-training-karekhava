@@ -1,3 +1,4 @@
+/*
 var quizzData = [
     {
         "title": "Зачет по теме №1 ",
@@ -1381,4 +1382,4 @@ var quizzData = [
             }
         ]
     }
-]
+]*/

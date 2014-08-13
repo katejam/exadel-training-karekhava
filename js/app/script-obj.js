@@ -51,17 +51,17 @@ var statistic = new Statistics();
 
 window.onload = function () {
 
-    var firstPage = document.getElementById('firstPage'),
+    /*var firstPage = document.getElementById('firstPage'),
         secondPage = document.getElementById('secondPage'),
-        testNumber;
+        testNumber;*/
 
-    for (var i = 0; i < quizzData.length; i++) {
+    /*for (var i = 0; i < quizzData.length; i++) {
         var questionsList = document.getElementById('questionsList');
         var question = document.createElement('li');
         question.appendChild(document.createTextNode(quizzData[i].title));
         questionsList.appendChild(question);
         question.setAttribute('number', i);
-    }
+    }*/
 
 /*    var questionNumber,
         questionsNumber,
@@ -74,15 +74,13 @@ window.onload = function () {
         showQuestion(questionNumber);
     }
 
-    questionsList.addEventListener('click', function (event) {
+    /*questionsList.addEventListener('click', function (event) {
         showSecondPage();
 
         testNumber = event.target.getAttribute('number');
 
         questionsNumber = quizzData[testNumber].questions.length;
         localStorage.questionsNumber = questionsNumber;
-
-        //debugger;
 
         if(testNumber == localStorage.testNumber){
             questionNumber = +localStorage.questionNumber || 0;
@@ -96,7 +94,7 @@ window.onload = function () {
 
         setUrl(+testNumber+1, questionNumber+1);
 
-    });
+    });*/
 
     function showQuestion(questionNumber) {
         console.log('localStorage.questionNumber = '+localStorage.questionNumber);
@@ -197,6 +195,7 @@ window.onload = function () {
                 skipButton.setAttribute("id", "skipButton");
                 skipButton.innerHTML = 'пропустить';
                 skipButton.addEventListener('click', function () {
+                    debugger;
                     questionNumber++;
 //                      localStorage.questionNumber = questionNumber;
 //                      saveValues(testNumber, questionNumber, answeredQuestionsNumber, rightAnswersNumber )
@@ -296,14 +295,14 @@ window.onload = function () {
 
     }
 
-    function showFirstPage(){
+/*    function showFirstPage(){
         firstPage.className = 'visible';
         secondPage.className = 'hidden';
     }
     function showSecondPage(){
         firstPage.className = 'hidden';
         secondPage.className = 'visible';
-    }
+    }*/
 
 
 
